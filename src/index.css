@@ -40,11 +40,15 @@ input {
     padding: 1em;
 }
 
-.meal-card p {
+.meal-card-instructions {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 10;
-    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.meal-card-instructions::-webkit-scrollbar {
+    display: none;
 }
 
 img {
